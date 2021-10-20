@@ -11,10 +11,10 @@ function Section({ title, children }) {
   );
 };
 
-// Section.defaultProps = {
-//   title: '',
-//   children: [],
-// };
+Section.defaultProps = {
+  title: '',
+  children: [],
+};
 
 Section.propTypes = {
   title: PropTypes.string.isRequired,
